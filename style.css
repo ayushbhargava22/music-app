@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+}
+*{
+    box-sizing: border-box;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#play{
+    color: orange;
+}
+#tap{
+    color: blue;
+
+}
+#enjoy{
+    color: tomato;
+}
+.pads{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-flow: wrap-reverse;
+}
+.pad1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    flex: 1;
+    
+}
+.pad2{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    flex: 1;
+}
+.pad3{
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+    flex: 1;
+}
+.pad4{
+    width: 100px;
+    height: 100px;
+    background-color: mediumblue;
+    flex: 1;
+}
+.pad5{
+    height: 100px;
+    width: 100px;
+    background-color: mediumvioletred;
+    flex: 1;
+}
+.pad6{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    flex: 1;
+}
